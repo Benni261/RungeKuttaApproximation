@@ -21,6 +21,23 @@ python main.py
 
 ## Adding Parameters
 
+## Adding Parameters
+*Equation Number*: Choose the equation you want to run. The options are 1, 2 or 3.
+*Step Size*: Adjust the starting step size. This will half after each iteration.
+*X End*: This will be the point where the interation finishes once the x value reaches it.
+
+
+Simply execute the script with the parameters as follows:
+```bash
+python main.py 3 1 20
+```
+Where:
+- `3` is the equation number (1, 2, or 3)
+- `1` is the step size
+- `20` is the x end value
+
+
+All parameters are required, and the program will run with the specified values.
 
 ## The Equations
 Here is an overview of the equations used in each script.
